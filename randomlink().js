@@ -1,4 +1,4 @@
-var random = new Array("https://detik.balitrips.site/", "https://detik.balitrips.site/", "https://detik.balitrips.site/", "https://detik.balitrips.site/", "https://detik.balitrips.site/" , "https://detik.balitrips.site/", "https://detik.balitrips.site/", "https://detik.balitrips.site/", "https://detik.balitrips.site/" );
+var random = new Array("https://detik.balitrips.site/", "https://detik.balitrips.site/", "https://detik.balitrips.site/", "https://detik.balitrips.site/" );
 
 // or
 
@@ -11,10 +11,6 @@ random[1] = "https://detik.balitrips.site/";
 random[2] = "https://detik.balitrips.site/";
 random[3] = "https://detik.balitrips.site/";
 random[4] = "https://detik.balitrips.site/";
-random[5] = "https://detik.balitrips.site/";
-random[6] = "https://detik.balitrips.site/";
-random[7] = "https://detik.balitrips.site/";
-random[8] = "https://detik.balitrips.site/";
 
 function randomlink() {
 window.location = random[Math.floor(Math.random()*random.length)];
